@@ -5,7 +5,11 @@ body {
   color: #000;
   word-break: break-word;
   hyphens: auto;
-  margin: 16px;
+  margin: 0;
+  padding: 4px 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 1200px) {
@@ -156,4 +160,19 @@ svg circle.bg {
 .progress .right {
   flex: 1;
   margin-left: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 24px;
+  font-size: smaller;
+  font-family: monospace;
+  line-height: 1.4;
+  opacity: 0.8;
+}
+
+a {
+  color: #3973ff;
+  text-decoration: none;
 }
