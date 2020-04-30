@@ -1,8 +1,8 @@
 html,
 body {
-  background: #f1f5fb;
+  background: black;
   font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
-  color: #000;
+  color: white;
   word-break: break-word;
   hyphens: auto;
   margin: 0;
@@ -109,19 +109,12 @@ div.container {
     width: calc(50% - 1rem);
   }
 }
-.flex .progress.dark {
-  background: #3973ff;
-  color: #f1f5fb;
-  padding: 0.5rem;
-}
+
 @media (min-width: 780px) {
   .flex .progress {
     margin: 0.5rem;
     padding: 1rem 0;
     width: calc(25% - 1rem);
-  }
-  .flex .progress.dark {
-    padding: 1rem;
   }
 }
 
@@ -168,7 +161,7 @@ footer {
   padding: 24px;
   font-size: smaller;
   font-family: monospace;
-  line-height: 1.4;
+  line-height: 1.8;
   opacity: 0.8;
 }
 
